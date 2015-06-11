@@ -1,7 +1,7 @@
 Feature: Check GA on page
 
 
-Scenario: Check google ananlytics loaded on the page with Poltergeist
+Scenario: Check google analytics loaded on the page with Poltergeist
 
   Given I visit any website to track google analytics
   When I call network traffic
